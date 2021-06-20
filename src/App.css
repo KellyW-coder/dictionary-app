@@ -1,3 +1,11 @@
+body {
+  background: hsl(180, 100%, 25%, 0.1);
+}
+
+a {
+  color: #008080;
+}
+
 .App {
   text-align: left;
   color: #000000;
@@ -11,9 +19,12 @@
 
 .App-header {
   background-color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   margin: 30px 0;
   text-align: center;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .App-link {
