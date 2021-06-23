@@ -13,7 +13,20 @@ function App() {
         <main>
           <Dictionary defaultKeyword="World" />
         </main>
-        <footer className="App-footer">Coded by Kelly Williams</footer>
+        <footer className="App-footer">
+          Coded by{" "}
+          <a href="https://www.kccd.co.za" target="_blank" rel="noreferrer">
+            Kelly Williams
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/KellyW-coder/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            is open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
