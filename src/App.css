@@ -9,6 +9,8 @@ a {
 .App {
   text-align: left;
   color: #000000;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-logo {
